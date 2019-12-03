@@ -1,17 +1,19 @@
 
 
 body {
-    background-color: #808385;
+    background-color: #8A2A2C;
     font-family: sans-serif;
     margin: 0px;
 }
 
-footer {
-    background-color: #2F2F34;
-    margin-top: 4%;
-    height: 85px;
-    color: #8A2A2C;
-    text-align: center;
+#main {
+    padding-bottom: 4%;
+    background-color: #808385;
+    float: left;
+}
+
+#main p {
+    color: #FFFFFF;
 }
 
 footer p {
@@ -19,6 +21,9 @@ footer p {
     align-items: center;
     justify-content: center;
     display: inline;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+
 }
 
 h1, nav {
@@ -26,26 +31,46 @@ h1, nav {
 }
 
 h1 {
-    color: #8A2A2C;
+    color: #FFFFFF;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-shadow: 2px 2px #000000;
+}
+
+nav {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 nav a:link {
+    padding: 5px;
+    color: white;
     margin: auto;
-    color: #8A2A2C;
     text-decoration: none;
     background-color: #2F2F34;
     font-family: sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 nav a:visited {
-    color: #8A2A2C;
+    color: white;
     background-color: #2F2F34;
 
 }
 
+nav a:active {
+    color: white;
+    background-color: #2F2F34;
+}
+
 nav a:hover {
-    color: #F75259;
-    background-color: #000000;
+    color: #8A2A2C;
+    background-color: #FFFFFF;
 }
 
 nav {
@@ -54,6 +79,13 @@ nav {
 
 h2 {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #8A2A2C;
+    text-shadow: 1px 1px #FFFFFF;
+    font-size: 40px;
 }
 
 p {
@@ -68,4 +100,5 @@ img {
     margin-right: auto;
     width: 20%;
     margin-bottom: 2%;
+    float: left;
 }

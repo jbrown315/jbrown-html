@@ -1,0 +1,10 @@
+#section2 p {
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-size: 1.2vw;
+}

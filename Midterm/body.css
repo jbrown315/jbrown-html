@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background-color: #8A2A2C;
+    font-family: sans-serif;
+}
+
+#sideleft, #sideright, #section1, #section2 {
+    background-color: #808385;
+}
