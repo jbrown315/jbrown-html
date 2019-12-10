@@ -4,6 +4,6 @@ body {
     font-family: sans-serif;
 }
 
-#sideleft, #sideright, #section1, #section2 {
+#sideleft, #sideright, #left1, #left2, #left3, #left4, #right1, #right2, #right3, #right4 {
     background-color: #808385;
 }

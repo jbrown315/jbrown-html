@@ -1,6 +1,5 @@
-#section1 img {
+#left1 img, #left2 img, #left3 img, #left4 img {
     width: 40%;
-    height: 20%;
     display: block;
     margin: auto;
     padding-top: 8%;

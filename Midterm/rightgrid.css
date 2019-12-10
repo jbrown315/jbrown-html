@@ -1,0 +1,13 @@
+#right1 p, #right2 p, #right3 p, #right4 p {
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 16.5%;
+    padding-bottom: 16.5%;
+    font-size: 1.2vw;
+}

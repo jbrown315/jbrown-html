@@ -1,0 +1,90 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: [col1-start] 50px [col1-end col2-start] 1fr [col2-end col3-start] 50px [col3-end];
+    grid-template-rows: [row1-start] 169px [row1-end row2-start] 1fr [row2-end row3-start] 50px [row3-end];
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8A2A2C;
+    opacity: 0.7;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:38px;
+    padding-bottom: 13px;
+    height: 101px;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+}
+
+#sideleft {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+#sideright {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main, #sideright {
+    background-color: transparent;
+}
+
+#bgimg {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+nav {
+    background-color: transparent;
+    margin-top: 18%;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+    background-color: #2F2F34;
+    font-family: sans-serif;
+    font-size: xx-large;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav a:visited {
+    color: white;
+    background-color: #2F2F34;
+
+}
+
+nav a:hover {
+    color: #8A2A2C;
+    background-color: #FFFFFF;
+}

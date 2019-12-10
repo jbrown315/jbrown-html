@@ -1,10 +1,3 @@
-header {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background-color: #8A2A2C;
-}
 
 h1 {
     color: #FFFFFF;
@@ -45,12 +38,12 @@ nav a:visited {
 
 }
 
-nav a:active {
-    color: #F75259;
+nav a:hover {
+    color: #8A2A2C;
     background-color: #FFFFFF;
 }
 
-nav a:hover {
-    color: #8A2A2C;
+nav a:active {
+    color: #F75259;
     background-color: #FFFFFF;
 }

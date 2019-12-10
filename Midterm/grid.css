@@ -1,29 +1,89 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: [col1-start] 50px [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end col4-start] 50px [col4-end];
+    grid-template-rows: [row1-start] 169px [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end row4-start] 1fr [row4-end row5-start] 1fr [row5-end row6-start] 50px [row6-end];
+}
 
-#section1 {
+header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8A2A2C;
+}
+
+#sideleft {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#left1 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#section2 {
+#left2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#left3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#left4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#right1 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-footer {
-    grid-column-start: 1;
-    grid-column-end: 5;
+#right2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
 }
+#right3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#right4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
 
-.container {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: [col1-start] 50px [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end col4-start] 50px [col4-end];
-    grid-template-rows: [row1-start] 169px [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end row4-start] 1fr [row4-end row5-start] 1fr [row5-end row6-start] 50px [row6-end];
+#sideright {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
 
+footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
 }
