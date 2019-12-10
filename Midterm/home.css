@@ -88,3 +88,8 @@ nav a:hover {
     color: #8A2A2C;
     background-color: #FFFFFF;
 }
+
+nav a:active {
+    color: #F75259;
+    background-color: #FFFFFF;
+}

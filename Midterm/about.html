@@ -3,8 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="leftgrid.css">
+    <link rel="stylesheet" href="rightgrid.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
-<p>about</p>
+
+<div class="container">
+  <header>
+      <h1>About Me</h1>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="components.html">Components</a>
+          <a href="guide.html">Guide</a>
+          <a href="about.html">About</a>
+      </nav>
+  </header>
+    <div id="sideleft"></div>
+    <div id="main">
+        <img src="josh.jpg" alt="photo of Josh">
+        <p>
+            Hello, My name is Josh Brown and I attend the Shipley School. I created this website in our
+            Web-Design Class because I have a passion for computers and how they work. I have built many
+            computers before and I wanted to share my knowledge of them.
+        </p>
+        <h2>Contact Me</h2>
+        <form id="contact">
+            First Name:<br>
+            <input type="text" name="firstname"><br>
+            Last Name:<br>
+            <input type="text" name="lastname"><br>
+            Email:<br>
+            <input type="text" name="email"><br>
+            Message:<br>
+
+        </form>
+        <textarea form="contact" rows="5"cols="50"></textarea>
+    </div>
+
+    <div id="sideright"></div>
+    <footer>
+        <p>Footer Text</p>
+    </footer>
+</div>
+
 </body>
 </html>

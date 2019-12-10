@@ -1,0 +1,82 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: [col1-start] 50px [col1-end col2-start] 1fr [col2-end col3-start] 50px [col3-end];
+    grid-template-rows: [row1-start] 169px [row1-end row2-start] 1fr [row2-end row3-start] 50px [row3-end];
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8A2A2C;
+}
+
+#sideleft {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #808385;
+}
+
+
+#sideright {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+#main p {
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:28px;
+    padding-bottom: 3px;
+    height: 101px;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+    margin-top: 6%;
+}
+
+form {
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
