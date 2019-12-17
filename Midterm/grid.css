@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: [col1-start] 50px [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end col4-start] 50px [col4-end];
-    grid-template-rows: [row1-start] 169px [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end row4-start] 1fr [row4-end row5-start] 1fr [row5-end row6-start] 50px [row6-end];
+    grid-template-rows: [row1-start] 169px [row1-end row2-start] 1fr [row2-end row3-start] 1fr [row3-end row4-start] 1fr [row4-end row5-start] 1fr [row5-end row6-start] 100px [row6-end];
 }
 
 header {

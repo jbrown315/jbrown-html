@@ -1,7 +1,47 @@
-#left1 img, #left2 img, #left3 img, #left4 img {
+#left1 img {
     width: 40%;
     display: block;
     margin: auto;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#left2 img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 13.5%;
+    padding-bottom: 13.5%;
+}
+
+#left3 img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 16.5%;
+    padding-bottom: 16.5%;
+}
+
+#left4 img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 14%;
+    padding-bottom: 14%;
+}
+
+#left5 img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 14%;
+    padding-bottom: 14%;
+}
+
+#left6 img {
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-top: 14%;
+    padding-bottom: 14%;
 }
