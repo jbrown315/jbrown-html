@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.sides {
+    text-align: center;
+    font-size: 3em;
+    height: 50px;
+    font-size: large;
+}
+
+.error{
+    font-size: medium;
+    color: red;
+}
+
+#Errorl {
+    visibility: hidden;
+}
+
+#Errorw {
+    visibility: hidden;
+}
+
+#Errorh {
+
+    visibility: hidden;
+}
+
+#Errord {
+    visibility: hidden;
+}
+
+table, th, td {
+    margin: auto;
+    border: 2px solid blue;
+}
+
+th {
+    font-weight: normal;
+}
+
+canvas {
+    border: 2px solid #000000;
+}

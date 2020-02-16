@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="rectCalcStyle.css">
+    <script src="rectCalc.js"></script>
+</head>
+<body id="body">
+
+<h1>Rotate Cube</h1>
+<p class="sides">Length: <input type="number" id="length" value="3" min="0">
+    <select id="unit_A" class="units"></select><br>
+    <span id="Errorl">Error! Length must be a number greater than 0!</span><br></p>
+<p class="sides">Width: <input type="number" id="width" value="4" min="0">
+    <select id="unit_B" class="units">
+
+    </select><br>
+    <span id="Errorw">Error! Width must be a number greater than 0!</span></p>
+<p class="sides">Height: <input type="number" id="height" value="5" min="0">
+    <select id="unit_C" class="units">
+
+    </select><br>
+    <span id="Errorh">Error! Height must be a number greater than 0!</span><br></p>
+
+<button onclick = "calculatorMain();">Calculate</button>
+
+<select id="answeru" class="units">
+
+</select>
+<p>
+    How many decimal places?
+    <input type="number" id="dec" value="0" min="0" max="300"><br>
+    <span id="Errord">Error! Decimal must be a Integer greater than or equal to 0 and cannot be larger than 300!</span>
+</p>
+</p>
+
+<canvas id="drawing" width="300" height="200">
+
+</canvas>
+<br>
+<canvas id="test" width="300" height="200">
+
+</canvas>
+<br>
+<button onclick="test('L')"><--</button>
+<button onclick="test('R')">--></button>
+
+<table>
+    <tr>
+        <th>Area</th>
+        <th id="area">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    </tr>
+    <tr>
+        <td>Volume</td>
+        <td id="vol">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>Surface Area</td>
+        <td id="sa">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+</table>
+
+</body>
+</html>
